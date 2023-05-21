@@ -1,4 +1,4 @@
-FROM python:3.10.6-slim-buster
+FROM python:3.8
 # evitar compilação travada devido ao prompt do usuário
 ARG DEBIAN_FRONTEND=noninteractive
 
