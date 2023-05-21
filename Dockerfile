@@ -13,8 +13,7 @@ RUN apt-get update && apt-get install -y libglib2.0-0
 RUN apt-get -y install poppler-utils
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENV PORT=8080
-EXPOSE 8080
+EXPOSE 8000
 
 ENTRYPOINT ["python"]
 CMD ["main.py"]
